@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100;1,200;1,300&display=swap');
+:root{
+    --main-color: #008848;
+    --black: #13131a;
+    --bg: #fffcf4;
+}
+
+*{
+    font-family: 'Raleway', sans-serif;
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+
+html{
+    line-height: 1.22;
+    -webkit-text-size-adjust: 100%;  
+    overflow: scroll;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+    
+html::-webkit-scrollbar-thumb{
+        background: #00a16c88;
+        border-radius: 5rem;
+    
+}
+
+section nav{
+    background: var(--bg);
+    display: float;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.7rem 27%;
+    border: 1px black;
+    border-style: solid none;
+    position: sticky;
+    top: 0; left: 0; right: 0;
+    background-color: rgba(71, 4, 71, 0.822);
+    z-index: 1;
+    
+}
+
+.navbar a{
+    margin: 1.9rem;
+    font-size: 1.6rem;
+    color:rgb(255, 255, 255);
+}
+
+.navbar a:hover{
+    color:var(--main-color) ;
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+
+}
+
+.header .logo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+    height: 15%;
+}
+
+aside{
+    display: flex;
+    display:inline-block;
+    position: relative;
+    flex-direction: column;
+    align-items:center;
+    left: 14%;
+    text-align: justify;
+    width: 15%;
+    height: 100%;
+    margin: 0;
+    margin-top: 3em;
+    color: #2b2c2c;
+
+}
+
+#info{
+    flex-direction: column;
+    align-items:center;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    
+}
+.mujerfoto{
+width: 50%;
+height: 50%;
+margin-bottom: center;
+text-align: justify;
+
+}
+
+.titulo{
+    text-align: center;
+    color:var(--black)
+}
+
+.column {
+    margin-top: 2em;
+    width: 100%;
+    display: block;
+    background-color:#d3d3d3;
+    padding: 10px;
+}
+
+.column h3{
+    text-align: center;
+}
+
+.column img {
+    display: block;
+    margin-top: 1em;
+    padding: 13px;
+    max-width: 78em;
+    margin: auto;
+    line-height: 1.618;
+}
+
+.text{
+    padding: 0.9em;
+}
+
+.apuntame{
+    background-color: #7feeafde;
+    text-align: center;
+    width: 100%;
+    border-top:#ffffff00 ;
+    border-color: #ffffff00;
+    font-size: 1.4em;
+    margin-top: 1em;
+}
+
+main{
+    width: 60%;
+    float: right;
+    margin-right: 3.6cm;
+    margin-top: 2em;
+}
+
+#fila1{
+    display: flex;
+    flex-direction: row;
+}
+
+#fila2{
+    display: flex;
+    flex-direction: row;
+}
+
+.fotoreceta{
+    margin-top: 2em;
+}
+
+.articulo{
+display: flex;
+flex-direction: column;
+width: 37%;
+margin: 3em;
+margin-top: 0em;
+text-align: center;  
+}
+
+.plato{
+    width: 100%;
+    height: 100%;
+}
+
+.fecha{
+    border: 1.3px rgba(39, 230, 125, 0.822);
+    border-style: solid none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    text-align: center;
+}
